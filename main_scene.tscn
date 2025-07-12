@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://i0kiic5kpwsg"]
+[gd_scene load_steps=2 format=3 uid="uid://i0kiic5kpwsg"]
+
+[ext_resource type="PackedScene" uid="uid://0i4edgoahr8a" path="res://top_fps_counter_label.tscn" id="1_0f027"]
 
 [node name="main_scene" type="Node2D"]
+
+[node name="FPS_COUNTER" parent="." instance=ExtResource("1_0f027")]
